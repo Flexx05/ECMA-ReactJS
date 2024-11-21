@@ -8,19 +8,17 @@ function ProductList() {
             <th scope="col">#</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Action</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td scope="row"></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td scope="row"></td>
-            <td></td>
-            <td></td>
+            <td scope="row">1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>
+              <button className="btn btn-danger">Delete</button>
+            </td>
           </tr>
         </tbody>
       </table>
